@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+.header-div{
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    position: fixed;
+    border-bottom: 2px solid #c17460;
+
+}
+.header-div span {
+float: left;
+height: 45px;
+
+}
+.header-div span a{
+    text-decoration: none;
+    line-height: 45px;
+    color: #c17460;
+}
+.header-div div{
+float: right;
+width: 30%;
+height: 45px;
+
+
+}
+.header-div div ul{
+display: flex;
+justify-content: space-between;
+height: 45px;
+}
+.header-div div ul li{
+    line-height: 45px;
+    padding: 0px 10px;
+    list-style: none;
+}
+.header-div div ul li :hover{
+    background-color: #c17460;
+    transition: 4s;
+}
+.header-div div ul li :hover a{
+    color: white;
+}
+.header-div div ul li:nth-child(4), .header-div div ul li:nth-child(5){
+border-radius: 7px;
+border: 2px solid #c17460;
+background-color: #c17460;
+}
+.header-div div ul li:nth-child(4) a, .header-div div ul li:nth-child(5) a{
+color: white;
+}
+.header-div div ul li a{
+text-decoration: none;
+color: #c17460;
+}
+section{
+    width: 100%;
+}
+.registration-sect{
+    width: 40%;
+    margin-left: 30%;
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 250px;
+}
+.registration-sect-left{
+    width: 50%;
+    
+}
+.registration-sect-right{
+width: 50%;
+background-image: url(../WhatsApp\ Image\ 2023-08-21\ at\ 11.43.54.jpg);  
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom;
+position: relative;
+}
+.registration-sect-left h4{    
+font-size: 24px;
+padding: 10px;
+}
+.registration-sect-left form{
+padding: 3px;
+}
+.registration-sect-left form div{
+padding: 3px;
+margin-top: 10px;
+
+}
+.registration-sect-left form div input{
+width: 90%;
+border: none;
+border-bottom: 1px solid #c17460;
+padding: 12px 7px 1px 7px;
+width: 90%;
+}
+.registration-sect-left form div input :focus{
+    border: 1px solid #c17460;
+    font-size: 14px;
+    padding: px;
+}
+.registration-sect-left form div span{
+width: 10%;
+border: none;
+border-bottom: 1px solid #c17460;
+padding: 12px 7px 1px 7px;
+}
+.registration-sect-left form div button{
+width: 100%;
+border: none;
+padding:7px;
+border-radius: 7px;
+background-color: #c17460;
+color: white;
+}
+.registration-sect-right a{
+position: absolute;
+top: 95%;
+display: block;
+text-align: center;
+width: 100%;
+text-decoration: none;
+color: #c17460;
+}
